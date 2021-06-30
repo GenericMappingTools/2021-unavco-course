@@ -3,14 +3,14 @@ Planning and material for the 2021 UNAVCO GMT for Geodesy course
 
 **Instructors:**
 [Paul Wessel](http://www.soest.hawaii.edu/wessel/),
-[Meghan Jones](http://www.soest.hawaii.edu/wessel/),
-[Joaquim Luis](http://w3.ualg.pt/~jluis/),
+[Meghan Jones](https://github.com/meghanrjones),
+[Joaquim Luis](http://joa-quim.pt),
 [Leonardo Uieda](http://www.leouieda.com),
-[Dongdong Tian](https://msu.edu/~tiandong/),
+[Dongdong Tian](https://seisman.info/),
 [Xiaohua Xu](https://www.researchgate.net/profile/Xiaohua_Xu7)
 
 **Assistants:**
-Federico E [Buenos Aires, Argentina], Liliane Burkhard [UH Manoa]
+Federico Esteban [Buenos Aires, Argentina], Liliane Burkhard [UH Manoa]
 
 **When**:
 July 20-21 (Monday-Tuesday), 2020., 1700-2200 UTC
