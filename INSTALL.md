@@ -106,7 +106,7 @@ To install a terminal with a bash shell on Windows:
 To install GMT, we'll use the Windows installer:
 
 1. Download and install the GMT Windows installer `gmt-6.2.0-win64.exe`
-   from [this link](https://github.com/GenericMappingTools/gmt/releases/download/6.1.0/gmt-6.1.0-win64.exe).
+   from [this link](https://github.com/GenericMappingTools/gmt/releases/download/6.2.0/gmt-6.2.0-win64.exe).
    It comes with GDAL, ghostscript, and ffmpeg pre-installed.
 
 Make sure you also [have a text editor installed](#install-a-text-editor).
