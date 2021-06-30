@@ -10,7 +10,7 @@ Planning and material for the 2021 UNAVCO GMT for Geodesy course
 [Xiaohua Xu](https://www.researchgate.net/profile/Xiaohua_Xu7)
 
 **Assistants:**
-Federico E [Buenos Aires, Argentina], Lauren Ward and Andrew Chase [UH Manoa]
+Federico E [Buenos Aires, Argentina], Liliane Burkhard [UH Manoa]
 
 **When**:
 July 20-21 (Monday-Tuesday), 2020., 1700-2200 UTC
