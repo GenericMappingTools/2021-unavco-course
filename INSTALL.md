@@ -64,7 +64,7 @@ Most Linux distributions come with a text editor installed. You may also
    This will give you access to the conda package manager. **Make sure you select to
    have conda added to your `PATH` when asked by the installer**. If you have
    the Anaconda Python distribution installed, you won't need to do this step.
-2. Install GMT 6.1.0 and its dependencies (including ghostscript, gdal, ffmpeg and graphicsmagick) by running
+2. Install GMT 6.2.0 and its dependencies (including ghostscript, gdal, ffmpeg and graphicsmagick) by running
    the following in a terminal:
 
    ```
