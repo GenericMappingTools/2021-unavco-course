@@ -22,7 +22,7 @@ and other software that will be used. Here is a summary of what you'll need:
 See specific instructions for your operating system below:
 
 * [Linux](#linux)
-* [macOS](#mac)
+* [macOS](#macos)
 * [Windows](#windows)
 
 
