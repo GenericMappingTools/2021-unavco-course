@@ -86,6 +86,8 @@ There are 4 options for installing GMT 6.2.0 under macOS:
 
 Make sure you also [have a text editor installed](#install-a-text-editor).
 
+We will use a bash shell during the course. To set your default shell to bash, enter `chsh -s /bin/bash` in the Terminal. 
+
 
 ## Windows
 
