@@ -1,13 +1,11 @@
 # GMT Basics
 
-Resources for the GMT basics session:
-
 **Instructor:**
-[Paul Wessel](http://www.soest.hawaii.edu/wessel/)
+[Meghan Jones](https://github.com/meghanrjones)
 
 **Resources**
 
-* My Google Slides on [GMT Basics](https://docs.google.com/presentation/d/16zYg13TOp9u_raN04BFJnENABHi-tKGzBXQWLtg87oA/edit?usp=sharing)
+* My Google Slides on [GMT Basics](https://docs.google.com/presentation/d/113JgVEMLuIMQq021VMiYyi0Z1EEBlo-RvbkUBK0DmLs/edit#slide=id.p)
 
 **Tasks**
 
