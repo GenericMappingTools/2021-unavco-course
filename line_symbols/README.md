@@ -121,6 +121,8 @@ create a script called *italia_I.sh* with
 ```
 #!/usr/bin/env bash
 # Extract the ouline of mainland Italia and use it as example for filling polygons
+# The more cryptic command to extract the polygon is due to the fact that for demonstration
+# sake we only want the main country polygon (i.e., drop all islands and islets)
 
 gmt pscoast -EIT -M | gmt convert -C+l3000 -bof > italia.bin 
 gmt begin italia_I png
