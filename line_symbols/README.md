@@ -130,7 +130,7 @@ gmt end show
 ```
 
 Here we are using a [`patern`](https://docs.generic-mapping-tools.org/latest/cookbook/predefined-patterns.html#predefined-bit-and-hachure-patterns-in-gmt) picked from the GMT pattern collection for the polygon fill
-(but we could have used simly a constant color like for example *-Glightblue*). Run the script and we get.
+(but we could have used simply a constant color like for example *-Glightblue*). Run the script and we get.
 
 <img src="italia_I.png" width="60%">
 
