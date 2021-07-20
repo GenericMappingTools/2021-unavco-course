@@ -148,7 +148,7 @@ Last, we add some details like beach ball, epicenters, etc to the map.
 
 <img src="demo7.jpg" width="40%">
 
-### Bonus challenge
+### Bonus challenges
 
 Figure out what's inside the final map and complete the rest of the plot. 
 
