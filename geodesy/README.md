@@ -151,5 +151,6 @@ Last, we add some details like beach ball, epicenters, etc to the map.
 ### Bonus challenge
 
 Figure out what's inside the final map and complete the rest of the plot. 
+
 For the two methods of plotting deformation vectors, what are their differences? (run ***gmt grdinfo*** on the sampled grids)
 
