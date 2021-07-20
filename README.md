@@ -13,7 +13,7 @@ Planning and material for the 2021 UNAVCO GMT for Geodesy course
 Federico Esteban [Buenos Aires, Argentina], Liliane Burkhard [UH Manoa]
 
 **When**:
-July 20-21 (Tuesday-Wednesday), 2020., 1700-2200 UTC
+July 20-21 (Tuesday-Wednesday), 2021, 1700-2200 UTC
 07:00 - 12:00 Hawaii
 10:00 - 15:00 US Pacific Coast
 13:00 - 18:00 US East Coast
