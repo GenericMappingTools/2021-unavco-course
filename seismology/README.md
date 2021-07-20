@@ -1,7 +1,7 @@
 # GMT for Seismology: Plotting beachballs
 
 **Instructor:**
-[Dongdong Tian](https://msu.edu/~tiandong/)
+[Dongdong Tian](https://me.seisman.info/)
 
 GMT provides 4 seismology modules (see the summary figure below). The goal of this session is to show how to plot beachballs on maps and cross-sections.
 
@@ -9,17 +9,17 @@ GMT provides 4 seismology modules (see the summary figure below). The goal of th
 
 **Contents**
 
-- [Explain Focal Mechanism]()
-- [Plot beachballs on maps]()
-- [Plot beachballs on cross-sections]()
-- [Get focal mechanism solutions from Global CMT]()
-- [Group Exercise]()
+- [Explain Focal Mechanism](#focal-mechanism-and-beachball)
+- [Plot beachballs on maps](#plot-beachballs-on-maps)
+- [Plot beachballs on cross-sections](#plot-beachballs-on-cross-sections)
+- [Get focal mechanism solutions from Global CMT](#get-focal-mechanism-solutions-from-global-cmt)
+- [Group Exercise](#group-exercise)
 
 **Resources**
 
-- Focal Mechanisms Explained: What are those “beach balls”? https://www.youtube.com/watch?v=MomVOkyDdLo (~ 6 minutes)
-- manpage of [meca](https://docs.generic-mapping-tools.org/6.1/supplements/seis/meca.html)
-- manpage of [coupe](https://docs.generic-mapping-tools.org/6.1/supplements/seis/coupe.html)
+- Focal Mechanisms Explained: What are those “beach balls”? https://www.youtube.com/watch?v=MomVOkyDdLo (about 6 minutes)
+- manpage of [meca](https://docs.generic-mapping-tools.org/6.2/supplements/seis/meca.html)
+- manpage of [coupe](https://docs.generic-mapping-tools.org/6.2/supplements/seis/coupe.html)
 - [Global CMT project](https://www.globalcmt.org/)
 
 ## Focal mechanism and beachball
@@ -37,18 +37,18 @@ We will use these three focal mechanisms as the example data.
 ```
 # longitude latitude depth strike dip rake magnitude [event_title]
 112 32 25  30  90   0  4  Strike-slip
-115 34 15  30  60  90  5  Normal
-118 32 45  30  60 -90  6  Reverse
+115 34 15  30  60  90  5  Reverse
+118 32 45  30  60 -90  6  Normal
 ```
 
 First, we need to copy/paste the data and save it into a plaintext file.
 
 ## Plot beachballs on maps
 
-The [meca](https://docs.generic-mapping-tools.org/6.1/supplements/seis/meca.html) module
+The [meca](https://docs.generic-mapping-tools.org/6.2/supplements/seis/meca.html) module
 can plot beachballs on maps.
 
-[`-S`](https://docs.generic-mapping-tools.org/dev/supplements/seis/meca.html#s) is the most important option of **meca**. It tells GMT the format of the input data,
+[`-S`](https://docs.generic-mapping-tools.org/6.2/supplements/seis/meca.html#s) is the most important option of **meca**. It tells GMT the format of the input data,
 beachball size, and other properties of optional title string.
 
 Other useful options:
@@ -56,7 +56,7 @@ Other useful options:
 - **-M**: same size for all beachballs
 - **-E**: color for extensive quadrants
 - **-G**: color for compressional quadrants
-- **-Z**: paint the compressional quadrants based on depth (you need to create a CPT by calling [`makecpt`](https://docs.generic-mapping-tools.org/6.1/makecpt.html) module first)
+- **-C**: paint the compressional quadrants based on depth (you need to create a CPT by calling [`makecpt`](https://docs.generic-mapping-tools.org/6.2/makecpt.html) module first)
 
 **A simple plot**: [beachball.sh](beachball.sh)
 
@@ -72,28 +72,26 @@ Other useful options:
 
 ## Plot beachballs on cross-sections
 
-[`coupe`](https://docs.generic-mapping-tools.org/6.1/supplements/seis/coupe.html) module can cut and plot beachballs in cross-sections (e.g., a vertical cross-section).
+[`coupe`](https://docs.generic-mapping-tools.org/6.2/supplements/seis/coupe.html) module can cut and plot beachballs in cross-sections (e.g., a vertical cross-section).
 
 Two most important options:
 
-- [`-S`](https://docs.generic-mapping-tools.org/6.1/supplements/seis/coupe.html#s): the same as **meca**
-- [`-A`](https://docs.generic-mapping-tools.org/6.1/supplements/seis/coupe.html#a): determine the cross-section
+- [`-S`](https://docs.generic-mapping-tools.org/6.2/supplements/seis/coupe.html#s): the same as **meca**
+- [`-A`](https://docs.generic-mapping-tools.org/6.2/supplements/seis/coupe.html#a): determine the cross-section
 
 Other options are the same as **meca**.
 
 There are different ways to specify the geometry of a cross-section. Here we will
 use **-Aa** as an example. The full syntax of the **-A** option is:
 
-```
--Aalon1/lat1/lon2/lat2/dip/p_width/dmin/dmax[+f]
-```
+**-Aa***lon1/lat1/lon2/lat2*[**+d***dip*][**+w***width*][**+z***dmin/dmax*][**+r**]
 
-- lon1/lat1: location of the starting point
-- lon2/lat2: location of the end point
-- dip: dip angle of the cross-section: 0 for horizontal slice, 90 for vertical slice
-- p_width: width of the cross-section
-- dmin/dmax: depth range of the cross-section
-- **+f**: automatically determine the plot region! **-R** is not necessary!
+- *lon1/lat1*: location of the starting point
+- *lon2/lat2*: location of the end point
+- *dip*: dip angle of the cross-section: 0 for horizontal slice, 90 for vertical slice
+- *width*: width of the cross-section
+- *dmin/dmax*: depth range of the cross-section
+- **+r**: automatically determine the plot region! **-R** is not necessary!
 
 **Cross-section view**: [beachball-cross-section.sh](beachball-cross-section.sh)
 
