@@ -154,3 +154,5 @@ Figure out what's inside the final map and complete the rest of the plot.
 
 For the two methods of plotting deformation vectors, what are their differences? (run ***gmt grdinfo*** on the sampled grids)
 
+Pick an event at the UNAVCO geophysical event response page https://www.unavco.org/projects/project-support/geophysical-event-response/geophysical-event-response.html and plot the GNSS vectors on top of earth relief. Search "GAGE GPS/GNSS Displacement Estimates" to locate the correct file. 
+
