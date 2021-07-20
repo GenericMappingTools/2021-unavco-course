@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Make a very simple spinning globe movie using coast
 # Run one of the gmt movie commands commented out below
 gmt begin
