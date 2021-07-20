@@ -124,6 +124,7 @@ Next, we plot these vectors with ***gmt velo***. We chose to plot them with a **
 gmt velo defo.dat -W0.1p,black -Se0.02/0.65/10 -A10p+eA+n10
 ```
 <img src="demo4.jpg" width="40%">
+
 Instead of using the above commands to fully control the sampling, one could also use the default ***gmt grdvector*** command to plot the arrows. Replace the above commands with 
 ```
 gmt grdvector dE.grd dN.grd -S50 -I0.1 -W0.1p -Q10p+eA+n10
