@@ -41,7 +41,8 @@ We will use these three focal mechanisms as the example data.
 118 32 45  30  60 -90  6  Normal
 ```
 
-First, we need to copy/paste the data and save it into a plaintext file.
+First, we need to copy the data and save it into a plaintext file `meca.dat`,
+which will be used in the following scripts.
 
 ## Plot beachballs on maps
 
