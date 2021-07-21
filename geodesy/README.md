@@ -11,7 +11,7 @@ Other data at https://drive.google.com/file/d/17NnXWIMeVl6IjMIrnsfXNHIBVeyY9Xtc/
 This part we will experiment with plotting velocity vectors mainly using the ***gmt velo -Se*** command.
 
 ### Vector attributes
-The ***-Se*** option alows to plot arrows with uncertainty ellipses, the followed options are ***-Se*velscale/confidence/fontsize**
+The ***-Se*** option allows to plot arrows with uncertainty ellipses, the followed options are ***-Se*velscale/confidence/fontsize**
 
 The input file requires input of ***longitude latitude E-vel N-vel E-sig N-sig CorrEN [Sitename]***
 
@@ -23,7 +23,7 @@ The arrow attributes are mainly controlled by the ***-A[size]*** option with add
 
 ***+g*** filling arrow color
 
-***+p*** width of the vector line (note the common ***-W*** for ***-Se*** is the width of the uncertainty ellipsev and the vector segment)
+***+p*** width of the vector line (note the common ***-W*** for ***-Se*** is the width of the uncertainty ellipse and the vector segment)
 
 ***+l/r*** plotting ***l***eft or ***r***ight half of the arrow
 
@@ -78,7 +78,7 @@ How to plot a right-lateral strike slip sign like below?
 <img src="vectors10.jpg" width="20%">
 
 ## Plotting deformation field with vectors - Ridgecrest earthquakes
-This part we will plot a vectorized deformation map + shaeded dem + GNSS data + fault traces + etc ...
+This part we will plot a vectorized deformation map + shaded dem + GNSS data + fault traces + etc ...
 
 First we use the commands similar as above to create an executable script with a name called make_map.sh
 
@@ -110,7 +110,7 @@ gmt coast -Na/0.5p,black,-.- -Slightblue -Df
 ```
 <img src="demo3.jpg" width="40%">
 
-Then we prepare the deformation field vector data with GMT. GMT is a strong plotting tool as well as a powerful data processing code. Below we use ***gmt grdsample*** to downsample the east and north deformation field derived from a half-space source solution for the Ridgecrest earthquake sequence (see https://topex.ucsd.edu/SV_7.1/). We chose to downsample everything to an ***I***ncrement of ***0.1*** degree and then use ***gmt grd2xyz*** to output to text tables. Then we paste two tables together and output longitude, latitude, east, north, "0", "0", "0" to the a new table to be ploted with ***gmt velo***
+Then we prepare the deformation field vector data with GMT. GMT is a strong plotting tool as well as a powerful data processing code. Below we use ***gmt grdsample*** to downsample the east and north deformation field derived from a half-space source solution for the Ridgecrest earthquake sequence (see https://topex.ucsd.edu/SV_7.1/). We chose to downsample everything to an ***I***ncrement of ***0.1*** degree and then use ***gmt grd2xyz*** to output to text tables. Then we paste two tables together and output longitude, latitude, east, north, "0", "0", "0" to the a new table to be plotted with ***gmt velo***
 ```
 gmt grdsample dE.grd -I0.1 -Gtmpe.grd
 gmt grdsample dN.grd -I0.1 -Gtmpn.grd
@@ -150,7 +150,7 @@ Last, we add some details like beach ball, epicenters, etc to the map.
 
 ### Bonus challenges
 
-Figure out what's inside the final map and complete the rest of the plot. Focal mechanisms and epicenters could be found here: 7.1 https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/executive and 6.4 https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183/executive
+Figure out what's inside the final map and complete the rest of the plot. Focal mechanisms and epicenters can be found here: 7.1 https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/executive and 6.4 https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183/executive
 
 For the two methods of plotting deformation vectors, what are their differences? (run ***gmt grdinfo*** on the sampled grids)
 
