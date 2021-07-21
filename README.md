@@ -14,10 +14,13 @@ Federico Esteban [Buenos Aires, Argentina], Liliane Burkhard [UH Manoa]
 
 **When**:
 July 20-21 (Tuesday-Wednesday), 2021, 1700-2200 UTC
+
+```
 07:00 - 12:00 Hawaii
 10:00 - 15:00 US Pacific Coast
 13:00 - 18:00 US East Coast
 18:00 - 23:00 London
+```
 
 **Where**:
 On-line via zoom
@@ -63,13 +66,13 @@ Participants will receive the zoom invitation at least 24 hours before the start
 | **Theme** | **Duration** | **UTC Time** |
 |-----------|--------------|--------------|
 | Welcome   | 10 min | 17:00-17:10  |
-| UNIX and bash    | 25 min | 17:10-17:35  |
+| [UNIX and bash](bash)    | 25 min | 17:10-17:35  |
 | *Break*         | 15 min | 17:35-17:50  |
-| GMT Basics    | 80 min |  17:50-19:10  |
+| [GMT Basics](basics)    | 80 min |  17:50-19:10  |
 | *Break*      | 45 min | 19:10-19:55  |
-| Symbols and lines      | 50 min | 19:55-20:45 |
+| [Symbols and lines](line_symbols)      | 50 min | 19:55-20:45 |
 | *Break*         | 15 min |  20:45-21:00  |
-| Grids and images      | 50 min |  21:00-21:50  |
+| [Grids and images](grids)      | 50 min |  21:00-21:50  |
 | Wrap up      | 10 min |  21:50-22:00  |
 
 ### Day 2:
@@ -77,11 +80,11 @@ Participants will receive the zoom invitation at least 24 hours before the start
 | **Theme** | **Duration** | **UTC Time** |
 |-----------|--------------|--------------|
 | Welcome   | 10 min | 17:00-17:10  |
-| Seismology | 50 min |  17:10-18:00  |
+| [Seismology](seismology) | 50 min |  17:10-18:00  |
 | *Break*      | 15 min |  18:00-18:15  |
-| Geodesy  | 50 min |  18:15-19:05  |
+| [Geodesy](geodesy)  | 50 min |  18:15-19:05  |
 | *Break*      | 45 min |  19:05-19:50 |
-| Animations      | 50 min | 19:50-20:40  |
+| [Animations](animation)      | 50 min | 19:50-20:40  |
 | *Break*         | 15 min | 20:40-20:55  |
 | Final projects      | 50 min | 20:55-21:45  |
 | Wrap up      | 10 min |  21:50-22:00  |
