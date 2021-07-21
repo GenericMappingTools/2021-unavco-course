@@ -150,7 +150,7 @@ Last, we add some details like beach ball, epicenters, etc to the map.
 
 ### Bonus challenges
 
-Figure out what's inside the final map and complete the rest of the plot. Focal mechanisms and epicenters could be find here: 7.1 https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/executive and 6.4 https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183/executive
+Figure out what's inside the final map and complete the rest of the plot. Focal mechanisms and epicenters could be found here: 7.1 https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/executive and 6.4 https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183/executive
 
 For the two methods of plotting deformation vectors, what are their differences? (run ***gmt grdinfo*** on the sampled grids)
 
