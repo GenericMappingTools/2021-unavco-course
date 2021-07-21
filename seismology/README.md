@@ -102,7 +102,7 @@ use **-Aa** as an example. The full syntax of the **-A** option is:
 
 Global CMT: https://www.globalcmt.org/
 
-The GCMT project provides focal mechasnism solutions for global earthquakes with M>5.5 since 1976.
+The GCMT project provides focal mechasnism solutions for global earthquakes with M>5 since 1976.
 
 1. Go to the [GCMT official site](https://www.globalcmt.org/), and click the
    [CMT catalog web search](https://www.globalcmt.org/CMTsearch.html) link.
