@@ -148,9 +148,11 @@ Last, we add some details like beach ball, epicenters, etc to the map.
 
 <img src="demo7.jpg" width="40%">
 
-### Bonus challenge
+### Bonus challenges
 
-Figure out what's inside the final map and complete the rest of the plot. 
+Figure out what's inside the final map and complete the rest of the plot. Focal mechanisms and epicenters could be found here: 7.1 https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/executive and 6.4 https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183/executive
 
 For the two methods of plotting deformation vectors, what are their differences? (run ***gmt grdinfo*** on the sampled grids)
+
+Pick an event at the UNAVCO geophysical event response page https://www.unavco.org/projects/project-support/geophysical-event-response/geophysical-event-response.html and plot the GNSS vectors on top of earth relief. Search "GAGE GPS/GNSS Displacement Estimates" to locate the correct file. 
 
