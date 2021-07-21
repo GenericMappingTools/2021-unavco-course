@@ -9,7 +9,7 @@ gmt end show
 # 2. Test that script works by just making a single frame (55) as PNG, no movie generated
 # gmt movie earth.sh -C360p -T91 -M55,png -Fnone -Nearth
 # 3. Run the movie and build a MP4 animation, with elapsed time
-# gmt movie earth.sh -C360p -T91 -Fmp4 -Nearth -Lf
+# gmt movie earth.sh -C360p -T91 -Fmp4 -Nearth -Lf -Z
 # 4. Run the movie and build a MP4 animation at 720p, with 360 degrees and progress indicator
 # gmt movie earth.sh -C720p -T360 -Fmp4 -Nearth -Pa -Lf -Z
 # 5. Run the movie and build a GIF animation, with A progress indicator

@@ -7,7 +7,7 @@ Resources for the GMT animation session:
 
 **Resources**
 
-* My Google Slides on [GMT animation](https://docs.google.com/presentation/d/1gpjr1C9W2yZ6K-LA8JQ90C05Gn5lgVDlMFDNyOV7VUI/edit?usp=sharing)
+* My Google Slides on [GMT animation](https://docs.google.com/presentation/d/14asz0WH1c5gKj04ap6SmVSaH6SWY1eI49iKgofd3n7Y/edit?usp=sharing)
 
 **Tasks**
 
@@ -30,7 +30,7 @@ gmt clear sessions
 
 **Products**
 
-This session may build one or more scripts.  We are doing this together live but if you need to
+This session may build one or more scripts.  We are doing this together "live", but if you need to
 go back and check you can examine my scripts here.  We recommend you work through the course
 with us first before you open our scripts - they are there to help you later.
 
