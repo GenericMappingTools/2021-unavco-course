@@ -54,7 +54,7 @@ there are a few ways to ask for help:
 
 The workshop video recording, slides and shared notes will be available on Google Drive.
 
-The workshop video recording can also be found on the UNAVCO YouTube Channel.
+The workshop video recording can also be found on the [UNAVCO YouTube Channel](https://youtube.com/playlist?list=PLzmugeDoplFPtWkrCqWWWZGZzPQr_k0Kx).
 
 ## Schedule
 
