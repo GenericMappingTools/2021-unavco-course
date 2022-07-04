@@ -3,7 +3,7 @@ Planning and material for the 2021 UNAVCO GMT for Geodesy course
 
 **Instructors:**
 [Paul Wessel](http://www.soest.hawaii.edu/wessel/),
-[Meghan Jones](https://github.com/meghanrjones),
+[Max Jones](https://github.com/maxrjones),
 [Joaquim Luis](http://joa-quim.pt),
 [Leonardo Uieda](http://www.leouieda.com),
 [Dongdong Tian](https://seisman.info/),
